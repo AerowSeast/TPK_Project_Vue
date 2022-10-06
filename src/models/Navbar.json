@@ -1,0 +1,25 @@
+{
+	"logo": {},
+	"menu": [
+		{
+			"name": "教會簡介",
+			"list": [
+				{ "text": "分設教會", "href": "/intro/" },
+				{ "text": "傳道師", "href": "/#events" }
+			]
+		},
+		{
+			"name": "聚會時間"
+		},
+		{
+			"name": "近期活動"
+		},
+		{
+			"name": "聯絡我們",
+			"list": [
+				{ "text": "加入行列", "href": "/engagement/" },
+				{ "text": "參與奉獻", "href": "/donation/" }
+			]
+		}
+	]
+}

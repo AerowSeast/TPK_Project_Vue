@@ -1,0 +1,21 @@
+{
+	"menu": [
+		{
+			"icon": "map",
+			"name": "網站導覽",
+			"list": [
+				{ "text": "教會沿革", "href": "#" },
+				{ "text": "教會週報", "href": "#" }
+			]
+		},
+		{
+			"icon": "perm_phone_msg",
+			"name": "聯絡資訊",
+			"list": [
+				{ "text": "06 228 2184", "href": "tel:+88662282184" },
+				{ "text": "someone@example.com", "href": "mailto:someone@example.com" },
+				{ "text": "700 臺南市中西區公園路 6 號", "href": "https://www.bing.com/maps?osid=1c8e7017-f977-453b-88d6-f150d14aa9d0" }
+			]
+		}
+	]
+}

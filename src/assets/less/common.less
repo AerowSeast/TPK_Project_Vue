@@ -1,0 +1,54 @@
+@import './init.less';
+
+body {
+    &::selection {
+        background-color: var(--slct-color);
+        color: var(--major-text-color);
+    }
+}
+
+.ctnr {
+    // Container
+	max-width: 75rem;
+	margin: 0 auto;
+    padding: 1rem 2rem;
+    
+    &-fitted {
+		max-width: none;
+		display: table;
+    }
+    
+    &-flexible {
+	    display: flex;
+	    flex-wrap: wrap;
+    }
+}
+
+.link {
+	border-bottom: 0.0625rem solid currentColor;
+}
+
+.flex {
+
+	&box {
+		flex: 1;
+	}
+}
+
+.icon {
+	&-circular {
+		width: 1.75em;
+		height: 1.75em;
+		background-color: var(--major-background);
+		border-radius: 50%;
+		font-size: 1.5rem;
+		line-height: 1.75;
+		color: var(--minus-background);
+		text-align: center;
+	}
+
+	&[data-icon]::before {
+		content: attr(data-icon);
+		font-family: inherit;
+	}
+}
